@@ -8,7 +8,6 @@ post-install:
 
 format:
 	# format code
-	pip3 install black
 	black *.py mylib/*.py
 
 lint:
