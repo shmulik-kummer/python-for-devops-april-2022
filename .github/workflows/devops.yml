@@ -22,7 +22,7 @@ jobs:
         run: echo "Placeholder for pytest" # Replace this line with `make test` when ready
 
       - name: Format code
-        run: echo "Placeholder for code formatting" # Replace this line with `make format` when ready
+        run: make format
 
       - name: Build Container
         run: |
