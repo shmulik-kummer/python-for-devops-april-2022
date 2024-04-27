@@ -14,15 +14,17 @@ jobs:
         run: |
           make install
           python -m textblob.download_corpora
+      
+      - name: Format code
+        run: make format
 
       - name: Lint with pylint
-        run: echo "Placeholder for pylint" # Replace this line with `make lint` when ready
+        run: make lint
 
       - name: Test with pytest
         run: echo "Placeholder for pytest" # Replace this line with `make test` when ready
 
-      - name: Format code
-        run: make format
+      
 
       - name: Build Container
         run: |
