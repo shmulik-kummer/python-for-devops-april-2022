@@ -22,7 +22,7 @@ jobs:
         run: make lint
 
       - name: Test with pytest
-        run: echo "Placeholder for pytest" # Replace this line with `make test` when ready
+        run: make test
 
       
 
